@@ -56,16 +56,18 @@ h2 {
     font-size: 1.2em;
 }
 
+legend {
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+    padding-bottom: 2vw;
+}
+
 
 .conteiner > label {
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-#formats {
-    padding: 2%;
-    text-align: left;
-    font-family: 'Kanit', sans-serif;
-}
 
 #mensagem {
     margin-top: 1vw;
@@ -79,7 +81,7 @@ h2 {
     border: 1px solid #ccc;
 }
 
-#links {
+/*#links {
     margin-top: 1vw;
     width: 80%;
     text-align: left;
@@ -95,7 +97,7 @@ h2 {
     border-radius: 10px;
     padding: 2%;
     padding-bottom: 5%;
-}
+}*/
 
 #submit {
     margin-top: 1vw;
@@ -108,11 +110,12 @@ h2 {
     font-size: 1em;
     border: none;
     /*font-family: 'Oswald', sem serifa;*/
-    font-family: 'Roboto', sem serifa;
+    font-family: 'Roboto', sans-serif;
+    transition: .3s ease;
 }
 
 #dest {
-    margin-top: 1vw;
+    margin-top: 3vw;
     text-align: left;
     border-radius: 10px;
     padding: 2%;
@@ -120,16 +123,21 @@ h2 {
     border: 1px solid #ccc;
 }
 
-#rem {
-    margin-top: 1vw;
-    text-align: left;
-    border-radius: 10px;
-    padding: 2%;
-    resize: none;
-    border: 1px solid #ccc;
-}
 
-legend {
-    font-family: 'Roboto', sans-serif;
-    padding: 1%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#submit:hover {
+    background-color: #a01729;
 }
