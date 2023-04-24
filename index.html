@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoMessage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&family=Kanit&family=Lobster&family=Montserrat:wght@100&family=Open+Sans:wght@300;400;500;800&family=Oswald:wght@300;600;700&family=Roboto&family=Roboto+Condensed&family=Sedgwick+Ave+Display&family=Teko&family=Ysabeau:wght@1;100;300;700;800;900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <a href="help.html" id="ihelp">Ajude-me</a>
+    <h1>NoMessage</h1>
+    <h2>Envie mensagens anônimas para seus amigos, ficantes, namorados e/ou até desconhecidos!</h2>
+    <div class="conteiner">
+            <div id="formats">
+                
+                <legend>Escolha um ou mais formatos que deseja enviar:</legend>
+                <input type="checkbox" name="text" id="formattext">
+                <label for="formattext">Texto</label><br>
+                
+                <input type="checkbox" name="links" id="formatlink">
+                <label for="formatlink">Link</label><br>
+                
+                <input type="checkbox" name="image" id="formatimage">
+                <label for="formaimage">Imagem</label>
+            </div>
+
+        <label>
+        <input type="radio" id="a" name="myGroup" autocomplete="off"/>Instagram
+        </label>
+        <label id="iconhecido">
+        <input type="radio" id="b" name="myGroup" autocomplete="off"/>TikTok
+        </label><br>
+        <input type="text" name="name" id="dest" autocomplete="off" placeholder="Destinário">
+
+        <textarea name="name" id="mensagem" rows="10" maxlength="2200" placeholder="Mensagem"></textarea>
+        <br>
+        <input type="url" name="name" id="links" placeholder="Insira um Link" autocomplete="off">
+        <br>
+        <input type="file" name="name" id="image">
+        
+
+        <a href="submit.html"><button type="submit" id="submit">Enviar</button></a>
+    </div>
+</body>
+</html>

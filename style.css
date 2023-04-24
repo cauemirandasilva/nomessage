@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&family=Kanit&family=Lobster&family=Montserrat:wght@100&family=Open+Sans:wght@300;400;500;800&family=Oswald:wght@300;600;700&family=Roboto&family=Roboto+Condensed&family=Sedgwick+Ave+Display&family=Teko&family=Ysabeau:wght@1;100;300;700;800;900&display=swap');
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+body {
+    background: rgb(236, 236, 236) linear-gradient(90deg, #D73148, #A32636) no-repeat fixed center center;
+}
+
+#ihelp {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+#ihelp:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+.conteiner {
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+}
+
+
+.conteiner > label {
+    padding: 10%;
+}
+
+#formats {
+    padding: 2%;
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+}
+
+#mensagem {
+    margin-top: 1vw;
+    width: 80%;
+    height: 20vh;
+    text-align: left;
+    font-size: 1.2em;   
+    border-radius: 10px;
+    padding: 2%;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+#links {
+    margin-top: 1vw;
+    width: 80%;
+    text-align: left;
+    border-radius: 10px;
+    padding: 2%;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+#image {
+    margin-top: 1vw;
+    text-align: left;
+    border-radius: 10px;
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
+#submit {
+    margin-top: 1vw;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: #c02e41;
+    color: white;
+    font-size: 1em;
+    border: none;
+    /*font-family: 'Oswald', sem serifa;*/
+    font-family: 'Roboto', sem serifa;
+}
+
+#dest {
+    margin-top: 1vw;
+    text-align: left;
+    border-radius: 10px;
+    padding: 2%;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+#rem {
+    margin-top: 1vw;
+    text-align: left;
+    border-radius: 10px;
+    padding: 2%;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+legend {
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+}
